@@ -6,17 +6,8 @@ version = 3
 name = "futori"
 version = "0.1.0"
 dependencies = [
- "skip_bom",
- "unicode-bom",
  "unicode-normalization",
- "utf8-read",
 ]
-
-[[package]]
-name = "skip_bom"
-version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b665adf9d8f5f5f2d2d4efae74c2872ea64665d737228a65bac282e664e8c549"
 
 [[package]]
 name = "tinyvec"
@@ -34,12 +25,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1f3ccbac311fea05f86f61904b462b55fb3df8837a366dfc601a0161d0532f20"
 
 [[package]]
-name = "unicode-bom"
-version = "2.0.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "98e90c70c9f0d4d1ee6d0a7d04aa06cb9bbd53d8cfbdd62a0269a7c2eb640552"
-
-[[package]]
 name = "unicode-normalization"
 version = "0.1.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -47,9 +32,3 @@ checksum = "5c5713f0fc4b5db668a2ac63cdb7bb4469d8c9fed047b1d0292cc7b0ce2ba921"
 dependencies = [
  "tinyvec",
 ]
-
-[[package]]
-name = "utf8-read"
-version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fb566ac06e11c3f13872ebcb0e72ea5f97f0f65a16f45048d0adea21edc28018"

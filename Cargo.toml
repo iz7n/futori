@@ -6,7 +6,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-skip_bom = "0.5.1"
-unicode-bom = "2.0.2"
 unicode-normalization = "0.1.22"
-utf8-read = "0.4.0"
